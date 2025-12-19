@@ -1,7 +1,8 @@
 import { StrictMode } from "react";
+import { GameContainer } from "./GameContainer";
 
 export function App() {
   return <StrictMode>
-    <h1>hello world </h1>
+    <GameContainer />
   </StrictMode>
 }
